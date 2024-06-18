@@ -83,5 +83,5 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
