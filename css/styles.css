@@ -239,7 +239,7 @@ body {
   row-gap: 48px;
 }
 .portfolio-list-item {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-option {
   margin-bottom: 8px;
