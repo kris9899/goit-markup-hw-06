@@ -42,6 +42,7 @@ img {
   gap: 40px;
 }
 .page-nav .link {
+  display: block;
   padding: 24px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -71,16 +72,10 @@ body {
   color: #4d5ae5;
 }
 .logo-sec-part {
-  margin-right: 76px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .address {
+  margin-left: auto;
   font-style: normal;
 }
 .address-item {
@@ -106,6 +101,9 @@ body {
   background-color: #2e2f42;
 }
 .main-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   max-width: 496px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -116,6 +114,8 @@ body {
   color: #ffffff;
 }
 .main-button {
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -138,10 +138,8 @@ body {
   padding: 120px 0;
 }
 .header-container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
   display: flex;
+  align-items: center;
 }
 .visually-hidden {
   position: absolute;
@@ -255,7 +253,6 @@ body {
   border-top: none;
 }
 .portfolio-sphere {
-  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -277,14 +274,6 @@ body {
   color: #4d5ae5;
 }
 .logo-part {
-  display: inline-block;
-  margin-bottom: 16px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-dscr {
