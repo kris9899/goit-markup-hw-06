@@ -180,7 +180,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.title {
+.title-our-team {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -220,6 +220,15 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.title-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio {
   padding-top: 120px;
