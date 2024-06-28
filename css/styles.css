@@ -92,8 +92,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-details:hover,
-.address-details:focus {
+.address-item-details:hover,
+.address-item-details:focus {
   color: #404bbf;
 }
 .main {
