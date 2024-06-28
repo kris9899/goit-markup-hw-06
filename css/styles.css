@@ -103,13 +103,14 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/Users/storozukhristina/Desktop/homeworks/goit-markup-hw-04/images/people-office.jpg);
+    url(../images/people-office.jpg);
 
   padding: 188px 0;
   background-repeat: no-repeat;
   background-color: #2e2f42;
   background-position: 50px 50px;
-  background-size: cover;
+  max-width: 1440px;
+  height: 600px;
 }
 .main-logo {
   margin-left: auto;
@@ -175,6 +176,7 @@ body {
 .benefits-li {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -231,6 +233,30 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+.social-link {
+  width: 232px;
+  height: 40px;
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+  align-self: center;
+}
+.social-link .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #f4f4fd;
+  background-color: #4d5ae5;
+  gap: 24px;
+}
+.social-icon {
+  width: 16px;
+  height: 16px;
 }
 .title-portfolio {
   font-weight: 700;
