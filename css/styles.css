@@ -377,9 +377,7 @@ body {
   display: flex;
   align-items: baseline;
 }
-.footer-logo-container {
-  margin-right: 120px;
-}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -402,6 +400,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-right: 120px;
 }
 .footer-social {
   font-family: 'Roboto', sans-serif;
@@ -412,6 +411,7 @@ body {
   color: #fff;
   margin-bottom: 16px;
 }
+
 .footer-list {
   display: flex;
   gap: 16px;
