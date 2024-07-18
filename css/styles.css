@@ -667,7 +667,7 @@ textarea:focus {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   max-width: 360px;
 }
@@ -698,7 +698,5 @@ input:checked + .checkbox-label > .span-checkbox {
 }
 
 .link-checkbox {
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
