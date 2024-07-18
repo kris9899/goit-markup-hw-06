@@ -483,14 +483,12 @@ body {
   margin-bottom: 16px;
 }
 .subscribe-form {
+  gap: 24px;
   display: flex;
   align-items: center;
 }
-.subscibe-label {
-  gap: 24px;
-}
+
 .subscribe-input {
-  margin-right: 24px;
   color: #ffffff;
   letter-spacing: 0.04em;
   font-size: 12px;
