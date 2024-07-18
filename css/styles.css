@@ -494,7 +494,7 @@ body {
   top: 50%;
   left: 50%;
   border-radius: 4px;
-
+  min-width: 408px;
   min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -545,6 +545,7 @@ body {
   text-align: center;
   color: #2e2f42;
   margin: auto;
+  margin-bottom: 16px;
 }
 .modal-label {
   display: block;
@@ -669,7 +670,8 @@ textarea:focus {
   display: flex;
   align-items: center;
   max-width: 360px;
-  margin-top: 16px;
+}
+.modal-checkbox {
   margin-bottom: 24px;
 }
 .span-checkbox {
@@ -691,7 +693,7 @@ textarea:focus {
 
 input:checked + .checkbox-label > .span-checkbox {
   background-color: #404bbf;
-
+  border: none;
   fill: #f4f4fd;
 }
 
