@@ -615,8 +615,14 @@
           </div>
 
           <div class="modal-checkbox">
-            <input type="checkbox" />
-            <label
+            <input
+              type="checkbox"
+              class="modal-input visually-hidden"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="checkbox-label" for="user-privacy"
               ><span class="span-checkbox">
                 <svg class="icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
@@ -626,7 +632,7 @@
               <p class="text-checkbox">
                 I accept the terms and conditions of the
               </p>
-              <a href="" class="link-checkbox"> Privacy Policy</a>
+              <a href="" class="link-checkbox">Privacy Policy</a>
             </label>
           </div>
           <button class="form-button" type="submit">Send</button>
