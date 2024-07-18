@@ -56,7 +56,9 @@
         <div class="container">
           <h1 class="main-logo">Effective Solutions for Your Business</h1>
           <!--heading1-->
-          <button class="main-button" type="button">Order Service</button>
+          <button class="main-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="main-benefits">
@@ -561,7 +563,7 @@
                 id="user-email"
                 placeholder="E-mail"
             /></label>
-            <button class="subscribe-button" type="button">
+            <button class="subscribe-button" type="submit">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -571,9 +573,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="modal-button" type="button">
+        <button class="modal-button" type="button" data-modal-close>
           <svg class="modal-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -655,5 +657,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
