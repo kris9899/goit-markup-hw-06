@@ -232,6 +232,7 @@ body {
 
 .benefits-list {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
@@ -800,6 +801,6 @@ textarea:focus {
     flex-basis: calc((100% - 24px) / 2);
   }
   .benefits-list {
-    gap: 24px 72px;
+    gap: 72px 24px;
   }
 }
