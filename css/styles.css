@@ -46,9 +46,9 @@ img {
   padding: 0 16px;
 }
 .header-container {
-  justify-content: space-between;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -124,10 +124,10 @@ img {
   background-color: #e7e9fc;
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.mobile-menu-close:hover,
+/* .mobile-menu-close:hover,
 .mobile-menu-close:focus {
   background-color: #404bbf;
   border: none;
@@ -135,11 +135,11 @@ img {
 .mobile-menu-close:hover .mobile-menu-icon,
 .mobile-menu-close:focus .mobile-menu-icon {
   fill: #fff;
-}
-.mobile-menu-icon {
+} */
+/* .mobile-menu-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
@@ -152,12 +152,12 @@ img {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.mobile-menu-text:hover,
+/* .mobile-menu-text:hover,
 .mobile-menu-text:focus {
   color: #404bbf;
-}
+} */
 .mobile-address-list {
   display: flex;
   flex-direction: column;
@@ -172,12 +172,12 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.mobile-address-details:hover,
+/* .mobile-address-details:hover,
 .mobile-address-details:focus {
   color: #4d5ae5;
-}
+} */
 .mobile-icon-list {
   gap: 40px;
   display: flex;
@@ -191,7 +191,7 @@ img {
 
 .mobile-icon-link {
   gap: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -281,11 +281,6 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.main-button:hover,
-.main-button:focus {
-  background-color: #404bbf;
 }
 
 .main-benefits {
@@ -616,12 +611,6 @@ body {
   border: none;
   padding-top: 8px;
   padding-left: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscribe-button:hover,
-.subscribe-button:focus,
-.subscribe-button:active {
-  background-color: #31d0aa;
 }
 
 .subscribe-icon {
@@ -679,18 +668,8 @@ body {
   background-color: #e7e9fc;
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button:hover,
-.modal-button:focus {
-  background-color: #404bbf;
-  border: none;
-}
-.modal-button:hover .modal-button-icon,
-.modal-button:focus .modal-button-icon {
-  fill: #fff;
-}
+
 .modal-button-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -742,13 +721,8 @@ body {
   text-align: center;
   color: #fff;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-button:hover,
-.form-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #404bbf;
-}
+
 .modal-input-wrap {
   position: relative;
 }
@@ -774,18 +748,8 @@ body {
   outline: transparent;
 
   padding-left: 16px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:active,
-.modal-input:hover,
-.modal-input:focus {
-  border: 1px solid #4d5ae5;
-}
-.modal-input:active + .modal-icon,
-.modal-input:hover + .modal-icon,
-.modal-input:focus + .modal-icon {
-  fill: #4d5ae5;
-}
+
 textarea::placeholder {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -810,11 +774,8 @@ textarea {
   resize: none;
   padding: 8px 16px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-textarea:focus {
-  border-color: #4d5ae5;
-}
+
 .checkbox-label {
   display: flex;
   align-items: center;
@@ -965,6 +926,7 @@ textarea:focus {
     font-size: 56px;
     line-height: 1.07;
   }
+
   .benefits {
     text-align: start;
   }
@@ -1079,6 +1041,13 @@ textarea:focus {
     font-size: 56px;
     line-height: 1.07;
   }
+  .main-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-button:hover,
+  .main-button:focus {
+    background-color: #404bbf;
+  }
   .main-benefits {
     padding: 120px 0;
     max-width: 1440px;
@@ -1186,6 +1155,14 @@ textarea:focus {
     width: 264px;
     opacity: 1;
   }
+  .subscribe-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subscribe-button:hover,
+  .subscribe-button:focus,
+  .subscribe-button:active {
+    background-color: #31d0aa;
+  }
   .subscribe-input::placeholder {
     color: #ffffff;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1198,5 +1175,45 @@ textarea:focus {
   .subscribe-form {
     margin-left: auto;
     flex-wrap: nowrap;
+  }
+  .modal-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-button:hover,
+  .modal-button:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  .modal-button:hover .modal-button-icon,
+  .modal-button:focus .modal-button-icon {
+    fill: #fff;
+  }
+  .form-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .form-button:hover,
+  .form-button:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #404bbf;
+  }
+  .modal-input {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-input:active,
+  .modal-input:hover,
+  .modal-input:focus {
+    border: 1px solid #4d5ae5;
+  }
+  .modal-input:active + .modal-icon,
+  .modal-input:hover + .modal-icon,
+  .modal-input:focus + .modal-icon {
+    fill: #4d5ae5;
+  }
+  textarea {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  textarea:focus {
+    border-color: #4d5ae5;
   }
 }
